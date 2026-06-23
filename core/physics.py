@@ -16,8 +16,6 @@ Cada hormiga:
 Esta es la función que se paraleliza: es la unidad de trabajo que cada
 worker de multiprocessing ejecuta de forma masiva sobre su porción de
 hormigas (ver core/parallel_engine.py).
-
-Persona responsable sugerida: Integrante B (Física y Reglas de Comportamiento).
 """
 
 from __future__ import annotations
