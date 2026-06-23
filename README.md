@@ -100,7 +100,7 @@ Commits sugeridos (en este orden, en sesiones distintas):
 5. `refactor(physics): step_chunk() con comprensión de tupla en vez de bucle for`
 6. `fix(physics): ajustar constantes de velocidad máxima y radios de evasión`
 
-### Integrante C — Paralelismo y Sincronización (`core/parallel_engine.py`)
+### Integrante Angel del pezo — Paralelismo y Sincronización (`core/parallel_engine.py`)
 1. `feat(parallel): _partition_ants() con partición en bloques contiguos`
 2. `feat(parallel): worker top-level _worker_step() picklable para multiprocessing`
 3. `feat(parallel): update_parallel() con Pool.map() y consolidación`
