@@ -10,8 +10,6 @@ Define las estructuras de datos INMUTABLES del simulador.
 Regla de arquitectura #1: el estado completo del juego vive en una única
 estructura `GameState`, construida con @dataclass(frozen=True). Ninguna
 variable global mutable existe en este módulo ni en el resto del proyecto.
-
-Persona responsable sugerida: Integrante A (Estado y Modelo de Datos).
 """
 
 from __future__ import annotations
