@@ -83,7 +83,7 @@ pytest tests/ -v
 > persona tenga un área de archivos clara y pueda hacer commits
 > reales e independientes sin pisarse con los demás.
 
-### Integrante A — Estado y Modelo de Datos (`core/state.py`)
+### Charles Toaza — Estado y Modelo de Datos (`core/state.py`)
 Commits sugeridos (en este orden, en sesiones distintas):
 1. `feat(state): definir dataclass Ant inmutable`
 2. `feat(state): definir dataclass Obstacle inmutable`
@@ -92,7 +92,7 @@ Commits sugeridos (en este orden, en sesiones distintas):
 5. `feat(state): make_initial_state() con seed reproducible`
 6. `test(state): validar que GameState y Ant lanzan error al intentar mutarse`
 
-### Integrante B — Física y Comportamiento de Enjambre (`core/physics.py`)
+### Jean Alejandro — Física y Comportamiento de Enjambre (`core/physics.py`)
 1. `feat(physics): función pura de wander (deambular) por hormiga`
 2. `feat(physics): repulsión de obstáculos (evasión tipo enjambre)`
 3. `feat(physics): repulsión entre vecinos para evitar colapso del enjambre`
@@ -100,7 +100,7 @@ Commits sugeridos (en este orden, en sesiones distintas):
 5. `refactor(physics): step_chunk() con comprensión de tupla en vez de bucle for`
 6. `fix(physics): ajustar constantes de velocidad máxima y radios de evasión`
 
-### Integrante Angel del pezo — Paralelismo y Sincronización (`core/parallel_engine.py`)
+### Angel Del Pezo — Paralelismo y Sincronización (`core/parallel_engine.py`)
 1. `feat(parallel): _partition_ants() con partición en bloques contiguos`
 2. `feat(parallel): worker top-level _worker_step() picklable para multiprocessing`
 3. `feat(parallel): update_parallel() con Pool.map() y consolidación`
@@ -108,7 +108,7 @@ Commits sugeridos (en este orden, en sesiones distintas):
 5. `feat(parallel): detect_total_cores() y recommended_worker_count()`
 6. `test(parallel): verificar que secuencial y paralelo producen resultados idénticos`
 
-### Integrante D — Render (Arcade) y Benchmark (`render/app.py`, `bench/benchmark.py`)
+### Andy Quimi — Render (Arcade) y Benchmark (`render/app.py`, `bench/benchmark.py`)
 1. `feat(render): ventana Arcade base dibujando obstáculos y hormigas`
 2. `feat(render): HUD con modo activo, FPS y número de hormigas`
 3. `feat(render): toggle de modo paralelo/secuencial con tecla P`
