@@ -1,4 +1,5 @@
 """
+hola mundo
 core/parallel_engine.py
 =========================
 Aquí vive el "Game Loop" funcional descrito en el reto:
