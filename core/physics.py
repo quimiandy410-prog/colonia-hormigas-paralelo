@@ -1,4 +1,5 @@
 """
+JEAN CARLOS ALEJANDRO DE LA CRUZ
 core/physics.py
 ================
 Funciones PURAS de física y comportamiento. Ninguna función de este
