@@ -13,8 +13,6 @@ También se incluye update_sequential(), que ejecuta exactamente la
 misma función pura (step_chunk) pero en un solo proceso, sin Pool.
 Comparar update_sequential() vs update_parallel() es la base de toda
 la métrica de rendimiento que pide el reto.
-
-Persona responsable sugerida: Integrante C (Paralelismo y Sincronización).
 """
 
 from __future__ import annotations
